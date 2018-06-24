@@ -12,6 +12,7 @@ void print(int mas[][sizeofpole]){
 }
 
 void print_symbol(int symbol){
+	//the character position dependening on the value
 	//печать позиции символа в замисимости от значения
 	if (symbol == 0) cout << "      ";
 	else if (symbol > 0 && symbol < 10) cout << "  " << symbol << "   ";
